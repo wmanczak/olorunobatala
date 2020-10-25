@@ -1,0 +1,130 @@
+body {
+  background-color: white;
+  font-family: ;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  padding: 25px;
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#menu {
+  float: left;
+  width: 200px;
+  text-align: center;
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 180px;
+  margin-right: 20px;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  width: 160px;
+  display: block;
+  padding: 15px;
+  padding-left: 20px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  border-right: 3px solid black;
+}
+.menu a:hover {
+  background: yellow;
+  transition: 0, 4s;
+  cursor: pointer;
+  width: fit-content;
+}
+.img-n {
+  width: 300px;
+  height: 200px;
+  padding: 45px;
+}
+.rect {
+  width: 100px;
+  height: 200px;
+  background-color: black;
+}
+#topbar {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  height: 300px;
+  width: 360px;
+  float: left;
+}
+
+#topbarL {
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  margin-top: 10px;
+  height: 300px;
+  width: 1450px;
+  float: left;
+}
+p {
+  float: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  right: right;
+  padding-right: 330px;
+  padding-top: 80px;
+}
+
+#topbarR {
+}
+#content {
+  float: left;
+  padding: 20px;
+  width: 500px;
+}
+
+#ad {
+  float: right;
+  width: 120px;
+  min-height: 200px;
+  padding: 5px;
+}
+
+#footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 1845px;
+  height: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
